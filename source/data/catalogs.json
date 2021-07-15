@@ -1,0 +1,194 @@
+{
+    "Catalog": [
+        {
+            "ItemId": "LaserSword",
+            "ItemClass": "weapon",
+            "CatalogVersion": "Main",
+            "DisplayName": "Laser Sword",
+            "VirtualCurrencyPrices": {
+                "CR": 50
+            },
+            "Tags": [],
+            "CustomData": "{\"damage\":15}",
+            "Consumable": {},
+            "CanBecomeCharacter": false,
+            "IsStackable": false,
+            "IsTradable": false,
+            "IsLimitedEdition": false,
+            "InitialLimitedEditionCount": 0
+        },
+        {
+            "ItemId": "PlasmaRifle",
+            "ItemClass": "weapon",
+            "CatalogVersion": "Main",
+            "DisplayName": "Plasma Rifle",
+            "VirtualCurrencyPrices": {
+                "CR": 130
+            },
+            "Tags": [],
+            "CustomData": "{\"damage\":25}",
+            "Consumable": {},
+            "CanBecomeCharacter": false,
+            "IsStackable": false,
+            "IsTradable": false,
+            "IsLimitedEdition": false,
+            "InitialLimitedEditionCount": 0
+        },
+        {
+            "ItemId": "Railgun",
+            "ItemClass": "weapon",
+            "CatalogVersion": "Main",
+            "DisplayName": "Railgun",
+            "VirtualCurrencyPrices": {
+                "CR": 500
+            },
+            "Tags": [],
+            "CustomData": "{\"damage\":50}",
+            "Consumable": {},
+            "CanBecomeCharacter": false,
+            "IsStackable": false,
+            "IsTradable": false,
+            "IsLimitedEdition": false,
+            "InitialLimitedEditionCount": 0
+        },
+        {
+            "ItemId": "HealthPotion",
+            "ItemClass": "consumable",
+            "CatalogVersion": "Main",
+            "DisplayName": "Health Potion",
+            "Description": "Grants the player health",
+            "VirtualCurrencyPrices": {
+                "CR": 20
+            },
+            "Tags": [],
+            "Consumable": {
+                "UsageCount": 5
+            },
+            "CanBecomeCharacter": false,
+            "IsStackable": false,
+            "IsTradable": false,
+            "IsLimitedEdition": false,
+            "InitialLimitedEditionCount": 0
+        },
+        {
+            "ItemId": "CommonArmor",
+            "ItemClass": "armor",
+            "CatalogVersion": "Main",
+            "DisplayName": "Armor",
+            "VirtualCurrencyPrices": {
+                "CR": 150
+            },
+            "Tags": [],
+            "CustomData": "{\"block\":1,\"reduce\":5}",
+            "Consumable": {},
+            "CanBecomeCharacter": false,
+            "IsStackable": false,
+            "IsTradable": false,
+            "IsLimitedEdition": false,
+            "InitialLimitedEditionCount": 0
+        },
+        {
+            "ItemId": "RareArmor",
+            "ItemClass": "armor",
+            "CatalogVersion": "Main",
+            "DisplayName": "Rare Armor",
+            "VirtualCurrencyPrices": {
+                "CR": 275
+            },
+            "Tags": [],
+            "CustomData": "{\"block\":3,\"reduce\":15}",
+            "Consumable": {},
+            "CanBecomeCharacter": false,
+            "IsStackable": false,
+            "IsTradable": false,
+            "IsLimitedEdition": false,
+            "InitialLimitedEditionCount": 0
+        },
+        {
+            "ItemId": "LegendaryArmor",
+            "ItemClass": "armor",
+            "CatalogVersion": "Main",
+            "DisplayName": "Legendary Armor",
+            "VirtualCurrencyPrices": {
+                "CR": 500
+            },
+            "Tags": [],
+            "CustomData": "{\"block\":7,\"reduce\":25}",
+            "Consumable": {},
+            "CanBecomeCharacter": false,
+            "IsStackable": false,
+            "IsTradable": false,
+            "IsLimitedEdition": false,
+            "InitialLimitedEditionCount": 0
+        },
+        {
+            "ItemId": "CreditPack",
+            "ItemClass": "unpack",
+            "CatalogVersion": "Main",
+            "DisplayName": "Pack of credits",
+            "VirtualCurrencyPrices": {},
+            "Tags": [],
+            "Consumable": {
+                "UsageCount": 1
+            },
+            "Bundle": {
+                "BundledItems": [],
+                "BundledResultTables": [],
+                "BundledVirtualCurrencies": {
+                    "CR": 15
+                }
+            },
+            "CanBecomeCharacter": false,
+            "IsStackable": false,
+            "IsTradable": false,
+            "IsLimitedEdition": false,
+            "InitialLimitedEditionCount": 0
+        },
+        {
+            "ItemId": "BigCreditPack",
+            "ItemClass": "unpack",
+            "CatalogVersion": "Main",
+            "DisplayName": "Big credit pack",
+            "VirtualCurrencyPrices": {},
+            "Tags": [],
+            "Consumable": {
+                "UsageCount": 1
+            },
+            "Bundle": {
+                "BundledItems": [],
+                "BundledResultTables": [],
+                "BundledVirtualCurrencies": {
+                    "CR": 50
+                }
+            },
+            "CanBecomeCharacter": false,
+            "IsStackable": false,
+            "IsTradable": false,
+            "IsLimitedEdition": false,
+            "InitialLimitedEditionCount": 0
+        },
+        {
+            "ItemId": "HugeCreditPack",
+            "ItemClass": "unpack",
+            "CatalogVersion": "Main",
+            "DisplayName": "Huge credit pack",
+            "VirtualCurrencyPrices": {},
+            "Tags": [],
+            "Consumable": {
+                "UsageCount": 1
+            },
+            "Bundle": {
+                "BundledItems": [],
+                "BundledResultTables": [],
+                "BundledVirtualCurrencies": {
+                    "CR": 100
+                }
+            },
+            "CanBecomeCharacter": false,
+            "IsStackable": false,
+            "IsTradable": false,
+            "IsLimitedEdition": false,
+            "InitialLimitedEditionCount": 0
+        }
+    ]
+}

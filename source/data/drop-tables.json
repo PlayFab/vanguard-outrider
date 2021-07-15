@@ -1,0 +1,52 @@
+{
+    "Tables": {
+        "enemy-easy": {
+            "CatalogVersion": "Main",
+            "TableId": "enemy-easy",
+            "Nodes": [
+                {
+                    "ResultItemType": "ItemId",
+                    "ResultItem": "CreditPack",
+                    "Weight": 4
+                },
+                {
+                    "ResultItemType": "ItemId",
+                    "ResultItem": "BigCreditPack",
+                    "Weight": 2
+                }
+            ]
+        },
+        "enemy-hard": {
+            "CatalogVersion": "Main",
+            "TableId": "enemy-hard",
+            "Nodes": [
+                {
+                    "ResultItemType": "ItemId",
+                    "ResultItem": "BigCreditPack",
+                    "Weight": 2
+                },
+                {
+                    "ResultItemType": "ItemId",
+                    "ResultItem": "HugeCreditPack",
+                    "Weight": 4
+                }
+            ]
+        },
+        "enemy-medium": {
+            "CatalogVersion": "Main",
+            "TableId": "enemy-medium",
+            "Nodes": [
+                {
+                    "ResultItemType": "ItemId",
+                    "ResultItem": "BigCreditPack",
+                    "Weight": 5
+                },
+                {
+                    "ResultItemType": "ItemId",
+                    "ResultItem": "CreditPack",
+                    "Weight": 2
+                }
+            ]
+        }
+    }
+}

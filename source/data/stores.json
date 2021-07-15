@@ -1,0 +1,63 @@
+{
+    "data": [
+        {
+            "Store": [
+                {
+                    "ItemId": "LaserSword",
+                    "VirtualCurrencyPrices": {
+                        "CR": 50
+                    }
+                },
+                {
+                    "ItemId": "PlasmaRifle",
+                    "VirtualCurrencyPrices": {
+                        "CR": 130
+                    }
+                },
+                {
+                    "ItemId": "Railgun",
+                    "VirtualCurrencyPrices": {
+                        "CR": 500
+                    }
+                }
+            ],
+            "Source": "Admin",
+            "CatalogVersion": "Main",
+            "StoreId": "Weapons",
+            "MarketingData": {
+                "DisplayName": "Weapons for Warriors"
+            }
+        },
+        {
+            "Store": [
+                {
+                    "ItemId": "CommonArmor",
+                    "VirtualCurrencyPrices": {
+                        "CR": 125
+                    }
+                },
+                {
+                    "ItemId": "RareArmor",
+                    "VirtualCurrencyPrices": {
+                        "CR": 200
+                    }
+                },
+                {
+                    "ItemId": "LegendaryArmor",
+                    "VirtualCurrencyPrices": {
+                        "CR": 500
+                    }
+                }
+            ],
+            "Source": "Admin",
+            "CatalogVersion": "Main",
+            "StoreId": "Armor",
+            "MarketingData": {
+                "DisplayName": "Amy's Armor Shoppe",
+                "Metadata": {
+                    "key": "value"
+                }
+            }
+        }
+    ]
+}

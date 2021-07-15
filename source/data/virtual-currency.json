@@ -1,0 +1,11 @@
+{
+    "VirtualCurrencies": [
+        {
+            "CurrencyCode": "CR",
+            "DisplayName": "Credits",
+            "InitialDeposit": 100,
+            "RechargeRate": 0,
+            "RechargeMax": 0
+        }
+    ]
+}

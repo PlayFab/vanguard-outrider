@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "../",
+        "sourceMap": false,
+        "noImplicitAny": false,
+        "module": "es6",
+        "target": "es6",
+        "skipLibCheck": true
+    },
+    "files": [
+        "./main.ts"
+    ],
+    "include": [
+        "main.ts",
+    ],
+}
