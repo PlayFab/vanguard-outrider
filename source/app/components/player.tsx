@@ -108,7 +108,7 @@ class PlayerBase extends React.Component<Props, IState> {
             <DivPlayerWrapper>
                 <DivPlayerName>
                     <h3>
-                        <a href={utilities.createPlayFabLink(this.props.appState.cloud, this.props.appState.titleId, `players/${this.props.appState.playerId}/overview`, false)} target="_blank" aria-label={`View ${this.props.appState.playerName} in Game Manager`}>{this.props.appState.playerName}</a> ({this.props.appState.playerHP} HP)
+                        <a href={utilities.createPlayFabLink(this.props.appState.cloud, this.props.appState.titleId, `players/${this.props.appState.playerId}/overview`, false)} target="_blank" aria-label={`View ${this.props.appState.playerName} in Game Manager`}>{this.props.appState.playerName} - {this.props.appState.playerId}</a> ({this.props.appState.playerHP} HP)
                         <ButtonLogOut text="Log out" onClick={this.props.logOut} />
                     </h3>
                 </DivPlayerName>
