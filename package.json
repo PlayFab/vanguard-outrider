@@ -1,52 +1,77 @@
 {
-  "name": "vanguard-outrider",
-  "version": "1.0.0",
-  "description": "A demo game to show how to use PlayFab and LiveOps techniques",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch",
-    "production": "webpack -p",
-    "cloudscript": "tsc -p ./source/cloud-script/tsconfig.json"
-  },
-  "author": "Jordan Roher",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/PlayFab/vanguard-outrider"
-  },
-  "dependencies": {
-    "office-ui-fabric-react": "^7.147.1",
-    "playfab-web-sdk": "^1.58.191218",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "react-redux": "^7.1.3",
-    "react-router-dom": "^5.1.2",
-    "redux": "^4.0.5",
-    "styled-components": "^4.4.1",
-    "typesafe-actions": "^5.1.0"
-  },
-  "devDependencies": {
-    "@types/react": "^16.9.17",
-    "@types/react-dom": "^16.9.4",
-    "@types/react-helmet": "^5.0.14",
-    "@types/react-intl": "^3.0.0",
-    "@types/react-redux": "^7.1.5",
-    "@types/react-router-dom": "^5.1.3",
-    "@types/styled-components": "^4.4.1",
-    "file-loader": "^5.0.2",
-    "grunt": "^1.0.4",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-replace-regex": "^1.0.3",
-    "grunt-run": "^0.8.1",
-    "html-webpack-plugin": "^3.2.0",
-    "request": "^2.88.0",
-    "script-loader": "^0.7.2",
-    "ts-loader": "^6.2.1",
-    "typescript": "^3.7.4",
-    "url-loader": "^3.0.0",
-    "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10"
-  }
+	"name": "vanguard-outrider",
+	"version": "2.0.0",
+	"description": "A demo game to show how to use Azure PlayFab and LiveOps techniques",
+	"main": "index.js",
+	"author": "Jordan Roher",
+	"license": "MIT",
+	"homepage": ".",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PlayFab/vanguard-outrider"
+	},
+	"dependencies": {
+		"@fluentui/react": "^8.36.4",
+		"@reduxjs/toolkit": "^1.6.2",
+		"@uifabric/styling": "^7.19.1",
+		"playfab-web-sdk": "^1.93.210927",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-helmet": "^6.1.0",
+		"react-redux": "^7.2.5",
+		"react-router-dom": "^5.3.0",
+		"react-scripts": "4.0.3",
+		"redux": "^4.1.1",
+		"styled-components": "^5.3.1",
+		"typesafe-actions": "^5.1.0",
+		"typescript": "^4.1.2",
+		"web-vitals": "^1.0.1"
+	},
+	"devDependencies": {
+		"@testing-library/jest-dom": "^5.11.4",
+		"@testing-library/react": "^11.1.0",
+		"@testing-library/user-event": "^12.1.10",
+		"@types/jest": "^26.0.15",
+		"@types/node": "^12.0.0",
+		"@types/react": "^17.0.0",
+		"@types/react-dom": "^17.0.0",
+		"@types/react-helmet": "^6.1.3",
+		"@types/react-redux": "^7.1.19",
+		"@types/react-router-dom": "^5.3.1",
+		"@types/styled-components": "^5.1.15"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"cloud-script": "tsc -p ./src/cloud-script/tsconfig.json"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"prettier": {
+		"arrowParens": "avoid",
+		"jsxBracketSameLine": true,
+		"printWidth": 120,
+		"semi": true,
+		"tabWidth": 4,
+		"trailingComma": "es5",
+		"useTabs": true
+	}
 }

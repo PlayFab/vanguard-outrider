@@ -1,21 +1,22 @@
 {
-    "compilerOptions": {
-        "outDir": "./game/",
-        "sourceMap": false,
-        "noImplicitAny": true,
-        "module": "commonjs",
-        "target": "es6",
-        "jsx": "react",
-        "resolveJsonModule": true,
-        "esModuleInterop": true
-    },
-    "files": [
-        "./source/index.d.ts"
-    ],
-    "include": [
-        "./source/*",
-        "./source/**/*",
-        "./static/*",
-        "./static/**/*"
-    ]
+	"compilerOptions": {
+		"target": "es5",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
+		"strictNullChecks": false
+	},
+	"include": ["src"],
+	"files": ["./src/index.d.ts"]
 }
