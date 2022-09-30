@@ -4,7 +4,7 @@ A clicker simplification of a looter shooter similar to Destiny, Warframe, or Th
 
 # Live demo
 
-Try it online at [https://www.vanguardoutrider.com](https://www.vanguardoutrider.com/)
+Try it online at [http://vanguardoutrider.com/](http://vanguardoutrider.com/)
 
 # Try it
 
